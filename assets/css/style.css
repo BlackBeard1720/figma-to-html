@@ -17,7 +17,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-/* common */
+/* ===========================================common================================================== */
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 1);
@@ -42,7 +42,7 @@ a {
     font-family: var(--font-heading);
     font-size: 3.8rem;
     font-weight: 700;
-    line-height: 1.27; /* 126.316% */
+    line-height: 1.27; 
     letter-spacing: -0.76px;
 }
 
@@ -70,7 +70,7 @@ a {
     max-width: calc(100% - 48px);
 }
 
-/* header */
+/* ===========================================header================================================== */
 
 .header {
 background: #FFFCF4;
@@ -128,7 +128,7 @@ background: #FFFCF4;
     margin-left: 49px;
 }
 
-/* hero */
+/* ===========================================hero================================================== */
 
 .hero {
     padding-top: 56px 0 65px;
@@ -225,7 +225,7 @@ background: #FFFCF4;
     margin-top: 22px;
     color: #5F5B53;
     font-size: 1.8rem;
-    line-height: 1.67; /* 166.667% */
+    line-height: 1.67; 
 }
 
 .hero .cta-group {
@@ -265,7 +265,7 @@ background: #FFFCF4;
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
-    line-height: 1.67; /* 166.667% */
+    line-height: 1.67; 
 }
 
 .hero .desc-recent {
@@ -277,7 +277,7 @@ background: #FFFCF4;
     font-family: var(--font-heading);
     font-size: 4.4rem;
     font-weight: 700;
-    line-height: 1.23; /* 122.727% */
+    line-height: 1.23; 
     margin-right: 15px;    
 }
 
@@ -288,6 +288,8 @@ background: #FFFCF4;
 .hero .start {
     margin-top: 8px;
 }
+
+/* ===========================================popular================================================== */
 
 .popular {
     padding: 65px 0;
@@ -409,3 +411,78 @@ background: #FFFCF4;
 .popular .course-item .btn-book:hover {
     background: var(--primary-color);
 }
+/* ===========================================feedback================================================== */
+
+.feedback {
+    margin-top: 135px;
+    padding: 96px 0;
+    background: #2E2100;
+}
+
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
+.feedback-item {
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.feedback-item .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-item .info .member {
+    margin-top: 18px;
+    width: 130px;
+    color: #F7F7F7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.42;   
+}
+
+.feedback-item .info .desc {
+    width: 159px;
+    margin-top: 4px;
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    line-height: 1.86;    
+}
+
+.feedback-item .dots {
+    margin-top: 28px;
+    display: flex;
+    gap: 6px;
+}
+
+.feedback-item .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+    cursor: pointer;
+}
+
+.feedback-item .content {
+    width: 66%;
+    margin-left: auto;
+}
+
+.feedback-item blockquote {
+    color: #FFF;
+    font-size: 2.6rem;
+    font-style: italic;
+    line-height: 1.54;
+}
+
+.feedback-item .dot.active {
+    background-color: var(--primary-color);
+    cursor: default;
+}
+
